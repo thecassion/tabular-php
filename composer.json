@@ -1,0 +1,14 @@
+{
+    "name": "thecassion/tabular-php",
+    "description": "A library that serves as backend for tabular-react with php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thecassion",
+            "email": "pierrerobentz.cassion@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
