@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "tabularphp\\": "src/"
+        }
+    },
     "name": "thecassion/tabular-php",
     "description": "A library that serves as backend for tabular-react with php",
     "type": "library",
@@ -10,7 +15,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "version": "0.0.1",
     "prefer-stable": true,
     "require": {}
 }
