@@ -14,10 +14,12 @@ class  Response {
         $this->request = $request;
     }
 
-    public function createGridResponse() {
-        $response = new GridResponse(
+    public static function createGridResponse($subset,$request) {
+        self::handleDatagridRequest();
+    }
 
-        );
+    private static function handleDatagridRequest(){
+        var_dump($_POST);
     }
 
     private function getAggregationPayload(){
